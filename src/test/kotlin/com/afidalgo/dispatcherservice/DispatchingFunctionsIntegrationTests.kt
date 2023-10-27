@@ -9,6 +9,8 @@ import org.springframework.cloud.function.context.FunctionCatalog
 import org.springframework.cloud.function.context.test.FunctionalSpringBootTest
 import reactor.core.publisher.Flux
 import reactor.test.StepVerifier
+import shared.library.order.OrderAcceptedMessage
+import shared.library.order.OrderDispatchedMessage
 
 @FunctionalSpringBootTest
 class DispatchingFunctionsIntegrationTests(@Autowired val catalog: FunctionCatalog) {

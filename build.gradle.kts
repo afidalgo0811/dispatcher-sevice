@@ -49,6 +49,7 @@ dependencies {
   implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
   testImplementation("org.springframework.cloud:spring-cloud-stream-test-binder")
   implementation("com.afidalgo:shared-library:$sharedLibraryVersion")
+  implementation("org.springframework.cloud:spring-cloud-starter-config")
 }
 
 dependencyManagement {
